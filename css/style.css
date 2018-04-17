@@ -1,3 +1,6 @@
+/* Fonts */
+
+@import 'fonts.css';
 
 /* General styles */
 
@@ -19,7 +22,7 @@ h1 {
 
 h3{
 	width: 100%;
-	margin: 0;
+	margin-top: 0;
 	font-size: 40px;
 	text-align: center;
 }
@@ -136,6 +139,11 @@ header nav ul.fd-navigation li a:hover:after {
 }
 
 /* Sobre*/
+
+#fd-about i {
+    font-size:  45px;
+    color: #dca453;
+}
 
 #fd-about .fd-column{
 	width: 48%;
